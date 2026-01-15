@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02DCB8AC-2723-4265-885B-DD1DAF5F0DFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimiter.Api", "src\RateLimiter.Api\RateLimiter.Api.csproj", "{858A031B-7495-4A28-A31A-8338F4EF9681}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimiter.Application", "src\RateLimiter.Application\RateLimiter.Application.csproj", "{D461E991-76DE-4A7A-A683-F2A1DA0EA931}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimiter.Infrastructure", "src\RateLimiter.Infrastructure\RateLimiter.Infrastructure.csproj", "{79A2D430-37C2-4E75-A5BD-B91F83719902}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{79C741C9-BD9C-4F06-8871-9F342E2C2F53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimiter.Tests", "tests\RateLimiter.Tests\RateLimiter.Tests.csproj", "{C871531E-21A9-447C-882D-1A83A1021D58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{858A031B-7495-4A28-A31A-8338F4EF9681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{858A031B-7495-4A28-A31A-8338F4EF9681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{858A031B-7495-4A28-A31A-8338F4EF9681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{858A031B-7495-4A28-A31A-8338F4EF9681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D461E991-76DE-4A7A-A683-F2A1DA0EA931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D461E991-76DE-4A7A-A683-F2A1DA0EA931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D461E991-76DE-4A7A-A683-F2A1DA0EA931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D461E991-76DE-4A7A-A683-F2A1DA0EA931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79A2D430-37C2-4E75-A5BD-B91F83719902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79A2D430-37C2-4E75-A5BD-B91F83719902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79A2D430-37C2-4E75-A5BD-B91F83719902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79A2D430-37C2-4E75-A5BD-B91F83719902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C871531E-21A9-447C-882D-1A83A1021D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C871531E-21A9-447C-882D-1A83A1021D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C871531E-21A9-447C-882D-1A83A1021D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C871531E-21A9-447C-882D-1A83A1021D58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{858A031B-7495-4A28-A31A-8338F4EF9681} = {02DCB8AC-2723-4265-885B-DD1DAF5F0DFA}
+		{D461E991-76DE-4A7A-A683-F2A1DA0EA931} = {02DCB8AC-2723-4265-885B-DD1DAF5F0DFA}
+		{79A2D430-37C2-4E75-A5BD-B91F83719902} = {02DCB8AC-2723-4265-885B-DD1DAF5F0DFA}
+		{C871531E-21A9-447C-882D-1A83A1021D58} = {79C741C9-BD9C-4F06-8871-9F342E2C2F53}
+	EndGlobalSection
+EndGlobal
